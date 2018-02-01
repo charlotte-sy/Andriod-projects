@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fast_check_button_frame"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+    <Button
+        android:id="@+id/fast_check_button"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:drawableLeft= "@drawable/shield"
+        android:text="@string/fast_safety_check"
+        android:background="@drawable/button_custom_menu"
+        />
+
+        <TextView
+            android:id="@+id/fast_check_text"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="15dp"
+            android:elevation="50dp"
+            android:text="@string/fast_check_button" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/room_picture_button_frame"
+        android:layout_below="@id/fast_check_button_frame"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+    <Button
+        android:id="@+id/room_picture_button"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:drawableLeft="@drawable/winter"
+        android:background="@drawable/button_custom_menu"
+        android:text="@string/room" />
+
+    <TextView
+        android:id="@+id/room_picture_text"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="15dp"
+        android:elevation="50dp"
+        android:text="@string/room_picture_button"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/contract_button_frame"
+        android:layout_below="@id/room_picture_button_frame"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+    <Button
+        android:id="@+id/contract_button"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:drawableLeft="@drawable/signature"
+        android:background="@drawable/button_custom_menu"
+        android:text="@string/contract" />
+
+    <TextView
+        android:layout_below="@id/contract_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="15dp"
+        android:elevation="50dp"
+        android:text="@string/contract_button"/>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp">
+
+                    <ImageView
+                        android:id="@+id/rent_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="300dp"
+                        android:maxWidth="300dp"
+                        android:src="@drawable/living_room" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/rent_image"
+                        android:layout_alignLeft="@id/rent_image"
+                        android:layout_alignRight="@id/rent_image"
+                        android:layout_alignTop="@id/rent_image"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/how_to_rent"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                //second--------------------------------------
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="20dp">
+
+                    <ImageView
+                        android:id="@+id/contract_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="300dp"
+                        android:maxWidth="300dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/contract" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/contract_image"
+                        android:layout_alignLeft="@id/contract_image"
+                        android:layout_alignRight="@id/contract_image"
+                        android:layout_alignTop="@id/contract_image"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/how_to_contract"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                //third--------------------------------------
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/move_out_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="300dp"
+                    android:maxWidth="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cleaning" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/move_out_image"
+                    android:layout_alignLeft="@id/move_out_image"
+                    android:layout_alignRight="@id/move_out_image"
+                    android:layout_alignTop="@id/move_out_image"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:text="@string/move_out"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                </RelativeLayout>
+
+                //Four--------------------------------------
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="20dp">
+
+                    <ImageView
+                        android:id="@+id/legal_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="300dp"
+                        android:maxWidth="300dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/legal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/legal_image"
+                        android:layout_alignLeft="@id/legal_image"
+                        android:layout_alignRight="@id/legal_image"
+                        android:layout_alignTop="@id/legal_image"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/legal_aid"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>

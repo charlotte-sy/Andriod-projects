@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:textColor="#37403F"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        />
+
+
+    <Switch
+        android:id="@+id/switch_dan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danish"
+        android:layout_margin="10dp"
+        android:paddingRight="180dp"
+        />
+
+    <Switch
+        android:id="@+id/switch_nor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/norwegian"
+        android:layout_margin="10dp"
+        android:paddingRight="180dp"
+        />
+
+    <Switch
+        android:id="@+id/switch_eng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+       android:layout_margin="10dp"
+        android:paddingRight="180dp"
+        />
+
+    <Button
+        android:id="@+id/button_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="#009284"
+        />
+
+</LinearLayout>

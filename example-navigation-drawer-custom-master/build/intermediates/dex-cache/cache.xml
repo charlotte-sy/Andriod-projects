@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.android\build-cache\c61ce9b3680f2ac59cf60eb189cb42333eb17b65\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\classes_fc67ef54b175b65f825910c6726f21bd7bd3a44b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.android\build-cache\017c751ec4430e8046bf2be2902be160dccff0ae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\classes_06c9bf54682c4cd3b94438a17ae8be25071cff29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.android\build-cache\e91b8ced61ef8a8dda0dbb2af2fa157c72db8175\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="947138b93ea35201765eb79a97327417efd1b80a">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\classes_efa865909efc80c402c4133f2ea209fcec74239e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.android\build-cache\625777cb45c9b8822a8115051de5d38959f48a29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\classes_f84df20cb59f13aecf2e032439121f5902c9cc7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.android\build-cache\8dbd0b67ce818b7e002adaee30c3c7e585365233\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\classes_3fe8a01c298e771ee4b933478319303656465112.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.android\build-cache\3a005df2fdc1deb683e0d556655adceaaccd092e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b707737dc104ae3577c2edb35468e6d660a734d">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\classes_618eb2b13cb823f64cb87e5a21b2442b1ebc1cee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.0.1\345b89f45d02d8b09400b472fab7b7e38f4ede1f\butterknife-annotations-8.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.0.1_2faea8990cd09686a595b8362256d0f871d64ec5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.android\build-cache\e5377d88c925036cd6d486d41d1fb425e8a0cb44\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="197c431b8fc427f77e02997e299bd6b9bef58ede">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\classes_39cea4f26b80d780c20ab987f60c09ba48d8649c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.android\build-cache\e787bbcaa6d3aeed6b2ff2495f635f98cfb5b558\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98a135c7935e62ac041acc1fcb148973bde828d5">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\classes_ffc9970addcce4b97e695fd193f14c6818c1edfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Seoyeon\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\Andriod projects\example-navigation-drawer-custom-master\app\build\intermediates\pre-dexed\debug\glide-3.7.0_f47f00619a9b44e804176b1d9ad345b54eefed38.jar" />
+    </item>
+
+</items>

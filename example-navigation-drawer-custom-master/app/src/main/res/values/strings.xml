@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExampleFour</string>
+
+    <string name="fragment_item_one">One</string>
+    <string name="fragment_item_two">Two</string>
+    <string name="fragment_item_three">Three</string>
+
+    <string name="fragment_title_one">Fragment Page One</string>
+    <string name="fragment_title_two">Fragment Page Two</string>
+    <string name="fragment_title_three">Fragment Page Three</string>
+</resources>

@@ -1,0 +1,470 @@
+<resources>
+    <string name="app_name">boligchecker</string>
+
+
+    //activity_main
+    <string name="how_to_rent">How to lease in Denmark</string>
+    <string name="how_to_contract">How to write a contract</string>
+    <string name="move_out">Move out</string>
+    <string name="legal_aid">Legal aid</string>
+
+    //How to lease in Denmark
+    <string name="rent_process_content">
+<![CDATA[
+
+<p>Finding a satisfying room/house is not easy in Denmark. So get prepared and follow the steps below.</p>
+
+<p><b>
+<ol>
+<li>1. Find a room/house in websites</li>
+<li>2. Message to landlord</li>
+<li>3. Visit the house for viewing</li>
+<li>4. Check facilities with the landlord</li>
+<li>5. Write a contract upon agreements of both landlord and you</li>
+</ol></b></p>
+
+
+<p>Those steps seem very natural and nothing to worry about.
+However, various different types of scam may hook you up at one careless moment.</p>
+
+<h3>1. Find a room/house in websites</h3>
+<p>In Denmark, it is very common to find a room/house online.
+Majority of Danish renting sites require you to pay for the service after few days of a trial period, while several house-renting groups at Facebook are free of charge.
+Usually, contacting to a landlord in Facebook is an easy and inexpensive way to find a room, however frauds dwell in an easy place, so you must secure yourself.</p>
+
+<p>Choose a neighbourhood as safe as possible. Danish gangsters possess guns and gang crimes happen often than you think.<br>
+Choose a neighbourhood close to your work/school because transportation fare is expensive in Denmark.</p>
+
+
+<b>Lists of major online rent sites.</b>
+<ul>
+<li><a href="http://www.boligportal.dk">http://www.boligportal.dk </a> </li>
+<li><a href="https://www.danmarkbolig.dk">https://www.danmarkbolig.dk </a></li>
+<li><a href="https://www.boligdeal.dk ">https://www.boligdeal.dk </a></li>
+<li><a href="https://www.nordeaejendomme.dk "> https://www.nordeaejendomme.dk </a>(Lease for entire apartments. Make a contract with a company instead of a private landlord.)</li><ul>
+
+
+<p> <font color="#C60C30"> <b>#</b> </font> Low price room without eligible address registration is not recommended.
+Paying extra money only for address registration is not recommended.
+All are ways of tax evasion. Since it is illegal, your residence right is insecure and officially you cannot get help.</p>
+
+<h3>2. Message to landlord</h3>
+<p>Tidy and neat self-introduction is a good start of the room hunting process.
+Before making a viewing plan, make sure name of a landlord is the same as the person you are talking with.
+Sub-letting without permission of landlord is outlawed.
+Moreover, you cannot register the address for your residence without permission of the landlord.
+Double and triple check if you are talking with the landlord.</p>
+
+<p><em><b>In this app, you can check landlord\'s name by simply entering an address.</b></em> (Information from <a href="http://Boligejer.dk "> http://Boligejer.dk</a>)<br>
+Go to My page - Fast safety check.</p>
+
+<h3>3. Visit the house for viewing</h3>
+<p>Keep in mind that you never pay for viewing since this is a typical way of scam.
+Another classic fraud is that the landlord wants to send a house key to you saying he is busy or that he is in another country.
+Do not send any money before you have meet the landlord and sign a contract.</p>
+
+<p>More info at<br>
+<a href="http://housingfoundation.ku.dk/finding_housing_yourself/dont-get-scammed"> http://housingfoundation.ku.dk/finding_housing_yourself/dont-get-scammed</a><p>
+
+<h3>4. Check facilities with the landlord</h3>
+<p>Checking the lease conditions at first place and discuss it with the landlord is the most crucial step.</p>
+
+<p>According to Danish Rent Act (check details below), the landlord must provide the tenant\'s lease in a good and proper condition at the agreed time and throughout the rental period.
+The lease must be cleaned, the windows must be well maintained and all exterior doors must be fitted with lockable locks with keys.</p>
+<p>There are no other specific acts in the Danish Rent Act on every other facilities in a room,
+but this generally means the rented accommodation must be equipped with well functioning household appliances such as heating, water supply, and internet.</p>
+
+<b><font color="#C60C30">IMPORTANT</fond></b><br>
+<p><b>Unfortunately, it is very common in Denmark that you cannot get 100% deposit back due to maintenance costs.</b>
+Disputes often arise when you move out and you may be invoiced big amount of krone.
+<b>You MUST take detailed pictures, make a written notice of defects, and agree with the landlord within 14 days after you have received the key.</b>
+If the landlord has an e-mail address, you can also send the list. There is no requirement that the landlord must recognize the email.</p>
+
+<p><em><b>In this app, taking pictures and generating a list of defects is available.</b></em><br>
+Go to My page - Room - Room manager/Checklist</p>
+
+<p>If there are serious shortcomings in the lease so that you can not live in the place, claim a refund for the rent at the time the lease is uninhabitable.
+You may be able to cancel the lease if the landlord does not immediately remedy the shortcomings.</p>
+
+<p>To avoid unnecessary invoice, it is good to know both landlord\'s and tenant\'s maintenance obligation.
+According to Danish Rent Acts, a tenant have only one maintenance obligation in their lease which is maintain or renew locks and keys,
+while the landlord has obligations to both internal and external maintenance.</p>
+<p>Internal maintenance includes whitening, painting, wallpapering and painting of floors in the lease.
+All other maintenance than internal maintenance is considered as external maintenance.</p>
+
+<p>However, if the tenant has agreed to the responsibility to carry out the internal maintenance on the contract, at the termination of the tenancy,
+the tenant must return the property in the same condition as it was at the beginning of the tenancy.
+This means that before moving out the tenant must carry out the maintenance of the ceilings, walls, floors etc.
+Any damage caused by fair wear and tear and lapse of time is not obligated to remedy.</p>
+
+
+
+<p>Meanwhile, the landlord must maintain the part of the property\'s external maintenance consisting of roof, ceiling, facades, windows, entrance door, gates, stairs, basements, gallstones, pipes, cables and other supply installations.
+In short, the landlord cannot force you to maintain things that you do not have access to in your home.</p>
+
+<p>Contact the LLO as soon as possible if you do not agree with the requirements your landlord is asking.
+Please be aware that the context is partially quoted from Danish Rent Acts.
+For detailed info, please read through links below.</p>
+
+
+
+<p><b>Danish Rent Acts</b><br>
+<a href="http://llo.dk/lejeloven-a-z"> http://llo.dk/lejeloven-a-z</a><br>
+<a href="https://www.retsinformation.dk/forms/r0710.aspx?id=173642">https://www.retsinformation.dk/forms/r0710.aspx?id=173642</a></p>
+
+
+<h3>5. Write a contract</h3>
+<p>Refer next chapter \"How to write a contract\"</p>
+
+
+<p><b>More info at</b><br>
+<a href="https://lifeindenmark.borger.dk/Coming-to-Denmark/Housing">https://lifeindenmark.borger.dk/Coming-to-Denmark/Housing</a><br>
+<a href="https://international.kk.dk/artikel/housing-1">https://international.kk.dk/artikel/housing-1</a></p>
+
+]]>
+</string>
+
+//How to write a contract
+<string name="write_contract">
+<![CDATA[
+
+<p>Contract process is a very important step on the way to get a lease.
+If you are not careful enough, you may end up with agreements you do not want or which may contain potential toxic clauses.</p>
+
+
+<b>* Useful terminology *</b>
+<p>In Denmark, it is common for the landlord to request three types of payments from you as you move in.</p>
+<p>The first payment is the monthly rental.</p>
+
+<p>Second is deposit. With high probability, you may not receive entire deposit back because the deposit will be used to cover painting in the lease and damage made by the tenant.
+Even if you did not do much damage, the landlord may still charge you a small amount of money in the least. For example, wall painting costs is most commonly mentioned by many landlords.
+Refer the previous chapter \"How to lease in Denmark\" for more details.</p>
+
+<p>Lastly, the prepaid rent.
+This concept might not be familiar to some people. The prepaid rent will be used if you either break the contract or fail to pay the rent.
+As long as you pay your monthly rental on the right time, this money will be used to pay the rent for the last months you are staying in the lease.
+In short, you do not need pay rent the last months.</p>
+
+<p>Followings are main steps of how to write a contract.</p>
+
+<p><b>
+<ol>
+<li>1. Check the contract format</li>
+<li>2. Adjustment and report detects</li>
+<li>3. Sign and keep the copy</li>
+</ol></b></p>
+
+<h3>1. Check the contract format</h3>
+
+<p>The Danish Transport, Construction and Housing Authority offers formal rent contract formats.
+There are two types. Type A is for the general private rental building, and type U is designed for young people in education.
+The Authority does not offer an English version, but you can google and find an unauthorized translated version.</p>
+
+<p><b>Download link</b><br>
+<a href="https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx">https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx</a></p>
+
+<p>If the landlord uses another format, you MUST read through carefully and check all details because of potential toxic clauses.
+For instance, too high annual rental increment or paying rent during refurbishment should be rediscussed with the landlord.
+In the formal contract format given by Danish Transport, Construction and Housing Authority, payments for only power, heating, water, Internet and cable-TV are included.
+No other utility charge can be included in the contract to increase your monthly payment by Danish Rent Act.</p>
+
+<p>Several private companies offer contract control service.
+Such as, <a href="https://kontrakter.boligportal.dk">https://kontrakter.boligportal.dk</a></p>
+
+
+<p> <font color="#C60C30"> <b>#</b> </font>  If the landlord asks you to pay rent in cash, you should know that it is a way of tax evasion.
+Your monthly rent and deposit are also not safe because there is no evidence to proof your payment.</p>
+
+
+<h3>2. Adjustment and report detects </h3>
+<p>Before signing the contract, one more crucial step is remaining. Remember to check what the monthly rent covers.</p>
+
+<p>A tenant must clarify total amount of monthly rent including utility cost and maintenance expense.
+Notice that power, heating, water, Internet and cable-TV are utilities you should include into your monthly rent.
+Other utilities are NOT under the Rent Act.</p>
+
+<p>According to Danish Rent Acts, a tenant has maintenance obligation for locks and keys.
+If you agreed in the contract, painting on walls and floors in the lease is also included.
+For more detailed info, refer previous chapter \"How to lease in Denmark\" or
+Danish Rent Acts <a href="https://www.retsinformation.dk/forms/r0710.aspx?id=173642">https://www.retsinformation.dk/forms/r0710.aspx?id=173642</a></p>
+
+<p>To prevent potential arguments in the future, it is essential to make a list of defects.
+If any deficient condition of the lease is found, the tenant <b>MUST</b> give a written
+notice of this to the landlord no later than 14 days after the start of the tenancy.
+Else the tenant loses the right to make subsequent claims concerning this deficiency.
+However, this does not apply if the deficiency cannot be discovered with reasonable diligence.</p>
+
+<p>It is wise to prepare all the possible bad situations.
+Just ask the landlord for possible misfortunes and consequences before signing.
+Write it down on the contract just in case.</p>
+
+<h3>3. Sign the contract and keep the copy</h3>
+
+<p>You <b>MUST</b> demand a contract after viewing the house and meeting the landlord.
+If the landlord procrastinates making a contract, it is a scam.</p>
+
+<p>The contract may be written in face to face or by email.
+It is important that you have enough time to look through the contract and have an extra meeting for editing or asking about the contract.
+Do not be afraid to ask for another extra meeting to the landlord if something is unclear or you need time to contact the Danish Tenants Association.
+After the landlord signs the contract, then you sign.
+Do not forget to keep a copy of the contract.</p>
+
+
+]]>
+</string>
+
+
+
+
+
+//Move out
+    <string name="move_out_content">
+ <![CDATA[
+<p>This chapter deals with lease termination, move out inspection, and deposit.</p>
+
+<h3>1. Termination</h3>
+<h4>1.1 Early Termination</h4>
+
+<p>If serious shortcomings are found in the lease so that you can not live in the lease, claim a refund for the rent at the time the lease is uninhabitable.
+You may be able to cancel the lease if the landlord does not immediately remedy the shortcomings.</p>
+
+<h4>1.2 Normal Termination</h4>
+
+<p>If the lease period is fixed, the lease terminates without notice.
+Upon limited rental period, written notice is required and a length of notice depends on type of your lease.
+For a flat/apartment where the landlord does not cohabit in, three-month prior notice is requested.
+For a flat/house occupied by the landlord, however, the tenancy of separate rooms may be terminated by one-month prior notice.
+Otherwise, the length of notice may be agreed in the contract.</p>
+
+<h4>1.3 Termination by the landlord.</h4>
+<p>The tenancy agreement can only be terminated by the landlord.
+The landlord must give 1 month notice to terminate a separated room.
+One year notice to terminate a tenancy is required for an entire apartment or a flat.
+Regardless of the length of the period of notice, notice must be given on the first weekday of a month not preceding a public holiday.</p>
+
+
+<h3>2. Moving out inspection</h3>
+
+<p>Under the lease, two types of maintenance exist, internal maintenance and external maintenance.
+Internal maintenance includes whitening, painting, wallpapering and painting of floors in the lease.
+All other maintenance than internal maintenance is considered as external maintenance.</p>
+
+<p>According to Danish Rent Acts, a tenant has only one maintenance obligation in their lease, maintain or renew locks and keys,
+while the landlord has obligation to both internal and external maintenance.
+However, if the tenant has agreed to the responsibility to carry out the internal maintenance on the contract,
+at the termination of the tenancy, the tenant must return the property in the same condition as it was at the commencement of the tenancy.
+This means that before moving out the tenant must carry out the maintenance of the ceilings, walls, floors etc.
+Any damage caused by fair wear and tear and lapse of time is not obligated to remedy.</p>
+
+
+<p>If you are in doubt about inspection, contact your local LLO department. If you are a member of LLO, you can ask them to do the inspectionfor you.<br>
+Find more details at<br>
+<a href="http://llo.dk/lejeloven-a-z">http://llo.dk/lejeloven-a-z</a></p>
+
+
+<h3>3. Deposit</h3>
+<p>The landlord is not obliged to return the deposit on the day the tenant leaves the rented property.
+The landlord is assumed to calculate all possible costs of renovation and return the deposit within one or one and a half month from the date of tenant\'s moving out.
+The landlord shall inform the tenant in a written format within two weeks (up to four weeks at the latest if the contracts provides such an option)
+when renovation or repairs is required.
+If the landlord does not meet the deadline of the notification, the landlord is not allowed to claim any costs from the tenant and must return the deposit in full.
+The landlord is not obliged to information within these two weeks about the price of renovations (or other deadline specified in the contract) if the cost of the renovations has not been estimated yet.<p>
+
+<p>If the landlord is overdue for the payment of the deposit, the tenant must send a letter including sum of all paid rent with receipts
+indicating the deadline for giving back the deposit and bank account number.
+If the landlord still evades the obligation of returning the deposit, the tenant must contact a tenants organization dealing with such cases for its members, e.g., LLO, or ask a lawyer.
+Please refer "Legal Aid" section for free legal advice in this app.</p>
+
+<p>Huslejenævnet is a department specialized in contentious tenancy and deposit issues, operating in every commune in Denmark.
+Huslejenævnet may not handle all types of cases related to lease,
+it is therefore worth joining a tenant\'s organization to get quick help when the need arises or contacting a law office.</p>
+
+<p>More info about Huslejenævnet is at<br>
+<a href="http://www.huslejenaevn.dk">http://www.huslejenaevn.dk</a><br>
+<a href="https://www.borger.dk/bolig-og-flytning/Lejebolig/Huslejenaevn">https://www.borger.dk/bolig-og-flytning/Lejebolig/Huslejenaevn</a></p>
+
+ ]]>
+</string>
+
+
+    //Legal Aid
+    <string name="legal_aid_content">
+<![CDATA[
+
+<p>When it comes to rent and lease, arguments between landlord and tenant may occur. In Denmark, free legal aid is available for everyone.</p>
+
+<p>According to The City of Copenhagens web page, you can get help in Retshjaelpen and libraries in every kommune (Advokatvagten).</p>
+<p>To use Retshjaelpen, you must meet a specific income condition while Advokatvagten has no requirements.</p>
+
+
+<p><i>\"In order to get help from Københavns Retshjælp, your personal income must not exceed DKK 308.000 a year if you are single.<br>
+If you are married or living with a partner, your joint income must not exceed DKK 391.000 a year\"</i></p>
+
+<p><b>Retshjaelpen website</b>
+<a href="http://www.retshjaelpen.dk/front-page">http://www.retshjaelpen.dk/front-page</a><br></p>
+
+<b>Another Retshjaelpen website</b>
+<a href="http://www.socialeretshjaelp.dk/">http://www.socialeretshjaelp.dk/</p>
+
+<p><b>List of libraries (Advokatvagten)</b><br>
+<a href="http://www.advokatvagterne.dk/content/listen-over-advokatvagter">http://www.advokatvagterne.dk/content/listen-over-advokatvagter</a><p>
+
+<p>More info at<p>
+<b>The City of Copenhagen web page</b> <br>
+<a href="https://international.kk.dk/artikel/can-i-get-legal-aid">https://international.kk.dk/artikel/can-i-get-legal-aid</a>
+
+<p><b>Largest tenants associations</b><br>
+<a href="http://llo.dk">http://llo.dk</a> <br>
+<a href="http://dklf.dk/">http://dklf.dk/</a></p>
+
+
+
+]]>
+
+    </string>
+
+
+
+
+    //drawer_viewer
+    <string name="my_side">My Page</string>
+    <string name="home">Home</string>
+    <string name="rent_process">Rent Process</string>
+    <string name="contract">Contract</string>
+    <string name="setting">Setting</string>
+
+    //main_card_list
+    <string name="detailed_address">Address line</string>
+    <string name="post_city">Post code and city</string>
+
+    //add_bolig
+    <string name="empty_view_title_text">Its time to add your room</string>
+    <string name="empty_view_subtitle_text">Get started by adding a room</string>
+
+    //BoligCursorAdapter
+    <string name="unknown_address">No address entered</string>
+
+    //contract_paper
+    <string name="title_new_bolig">Add a new room</string>
+    <string name="title_edit_bolig">Edit the room</string>
+
+
+    <string name="address_line">Enter address line </string>
+    <string name="address_post">Enter post code </string>
+    <string name="address_city">Enter city name </string>
+    <string name="landlord">Enter landlord name </string>
+    <string name="lease_length">Enter lease length </string>
+    <string name="notice">Enter notice period</string>
+    <string name="monthly_rent">Enter monthly rent </string>
+    <string name="deposit">Enter deposit</string>
+    <string name="kr">Kr</string>
+    <string name="months">months</string>
+
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+
+
+    //BoligActivity
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_update_pet_failed">Update Failed</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_update_pet_successful">Update Successful</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this room?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current pet was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_pet_successful">Room deleted</string>
+
+    <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_pet_failed">Error with deleting the room</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_insert_pet_failed">Update Failed</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_insert_pet_successful">Update Successful</string>
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_save_successful">Save Successful </string>
+
+    //menu_editor
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    //contract fragment
+    <string name="contract_info">Contract Info</string>
+    //setting
+    <string name="language">Language setting</string>
+    <string name="danish">Danish</string>
+    <string name="norwegian">Norwegian</string>
+    <string name="english">English</string>
+    <string name="save">Save</string>
+
+    //myside fragment
+    <string name="mysidefragment">Contract Manager</string>
+    //rent fragment
+    <string name="rentfragment">Lease Process</string>
+    //myside
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="fast_check_button">Must check basic info first to avoid scam</string>
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="room_picture_button">Save your room pictures and fill up a check list</string>
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="contract_button">Create a contract and check all small details</string>
+    <string name="room">Room</string>
+    <string name="fast_safety_check">Fast Safety Check</string>
+
+    //fast_check
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="fc_address">Enter the full address</string>
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="fc_name">Enter the landlord name</string>
+    <string name="fc_info">Data has been imported from https://boligejer.dk</string>
+
+
+    //room_picture_main
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="room_manage">Room Manager</string>
+    <string name="check_list">Check List</string>
+    //room_picture
+    <string name="roompicture">Room Details</string>
+
+    //Wall
+    <string name="overview">Add Picture</string>
+    <string name="detail_view">Album Overview</string>
+
+    //Wall_One
+    <string name="title_wall_one">Wall 1</string>
+
+
+    //fast check activity
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="title_fast_check">Fast Safety Checker</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+
+</resources>

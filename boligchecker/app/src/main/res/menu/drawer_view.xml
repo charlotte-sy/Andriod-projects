@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_face_black_24dp"
+            android:id="@+id/nav_zero_fragment"
+            android:title="@string/my_side" />
+        <item
+            android:icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/nav_first_fragment"
+            android:title="@string/home" />
+        <item
+            android:icon="@drawable/ic_format_list_numbered_black_24dp"
+            android:id="@+id/nav_second_fragment"
+            android:title="@string/rent_process" />
+        <item
+            android:icon="@drawable/ic_create_black_24dp"
+            android:id="@+id/nav_third_fragment"
+            android:title="@string/contract" />
+        <item
+            android:icon="@drawable/ic_local_shipping_black_24dp"
+            android:id="@+id/nav_move_fragment"
+            android:title="@string/move_out" />
+
+        <item
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:id="@+id/nav_fourth_fragment"
+            android:title="@string/legal_aid" />
+    </group>
+
+
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/ic_language_black_24dp"
+                    android:id="@+id/setting_fragment"
+                    android:title="@string/setting" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
+
