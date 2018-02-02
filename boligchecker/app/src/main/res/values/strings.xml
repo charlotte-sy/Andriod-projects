@@ -453,7 +453,9 @@ If you are married or living with a partner, your joint income must not exceed D
 
     //Wall_One
     <string name="title_wall_one">Wall 1</string>
-
+    <string name="title_wall_two">Wall 2</string>
+    <string name="title_wall_three">Wall 3</string>
+    <string name="title_wall_four">Wall 4</string>
 
     //fast check activity
     <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->

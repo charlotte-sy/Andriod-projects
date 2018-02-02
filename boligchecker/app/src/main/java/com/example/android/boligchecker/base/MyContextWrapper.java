@@ -78,6 +78,17 @@ public class MyContextWrapper extends ContextWrapper {
         return getString(context, "LocalLanguageType","en");
     }
 
+    public static void setLocalRoomType(Context context, String autostatus) {
+        saveString(context, "LocalRoomType", autostatus);
+    }
+
+    public static String getLocalRoomType(Context context) {
+        return getString(context, "LocalRoomType","1");
+    }
+
+
+
+
     private static String SP_NAME = "Config";
     private static SharedPreferences sp;
 

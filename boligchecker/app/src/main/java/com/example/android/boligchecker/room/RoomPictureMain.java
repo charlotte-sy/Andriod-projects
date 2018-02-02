@@ -51,16 +51,18 @@ public class RoomPictureMain extends BaseFragment implements  View.OnClickListen
         Fragment fragment = null;
         switch (v.getId()) {
             case R.id.room_manage_button:
-                fragment = new RoomPicture();
+                Intent intent1 = new Intent(getActivity(), WallOne.class);
+                startActivity(intent1);
                 break;
             case R.id.check_list_button:
                 fragment = new ContractFragment();
+                ft.remove(fm.findFragmentById(R.id.content_frame))
+                        .add(R.id.content_frame, fragment)
+                        .addToBackStack(null)
+                        .commit();
                 break;
         }
-        ft.remove(fm.findFragmentById(R.id.content_frame))
-                .add(R.id.content_frame, fragment)
-                .addToBackStack(null)
-                .commit();
+
 
 
     }

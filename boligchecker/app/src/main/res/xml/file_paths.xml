@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <paths xmlns:android="http://schemas.android.com/apk/res/android">
 <external-path name="hidden" path="/Pictures/boligchecker" />
-
-
-
-
+    <external-path name="hidden" path="/Pictures/wall_1" />
+    <external-path name="hidden" path="/Pictures/wall_2" />
+    <external-path name="hidden" path="/Pictures/wall_3" />
+    <external-path name="hidden" path="/Pictures/wall_4" />
+    <root-path
+        name="external_files"
+        path="/storage/" />
 </paths>

@@ -74,21 +74,26 @@
         </activity>
 
 
+
         //ContentProdiver needs this lines
-        <provider
-            android:name=".data.BoligProvider"
-            android:authorities="com.example.android.boligchecker"
-            android:exported="false" />
+
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.example.android.boligchecker"
+            android:authorities="com.example.android.boligchecker.room"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths"/>
         </provider>
+
+
+        <provider
+            android:name=".data.BoligProvider"
+            android:authorities="com.example.android.boligchecker"
+            android:exported="false"
+            />
 
 
     </application>
