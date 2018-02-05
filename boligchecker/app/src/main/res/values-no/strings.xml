@@ -4,7 +4,7 @@
 
 
     //activity_main
-    <string name="how_to_rent">Hvordan leier man i Danmark</string>
+    <string name="how_to_rent">Hvordan man leier i Danmark</string>
     <string name="how_to_contract">Hvordan skrive kontrakt</string>
     <string name="move_out">Flytte ut</string>
     <string name="legal_aid">Rettshjelp</string>
@@ -29,10 +29,17 @@
 
 <h3>1. Finn en boenhet på internett</h3>
 <p>I Danmark er det veldig vanlig å finne boenhet på nettet.
-De fleste danske nettstedene for leie av boenhet krever at du betaler for tjenesten etter en liten prøveperiode. Derimot kan man finne mange grupper på Facebook som annonserer gratis.
+De fleste danske nettstedene for leie av boenhet krever at du betaler for tjenesten etter en liten prøveperiode.
+Du må være obs på at hvis du ikke avbryter den gratise prøveperioden, så blir du automatisk bundet til å abonnere.
+Derimot kan man finne mange grupper på Facebook som annonserer gratis.
 Vanligvis er Facebook en god og enkel måte å komme i kontakt med utleiere på, men det er også enkelt for svindlere å lure folk igjennom denne plattformen, siden det ikke er noen som får sjekket troverdigheten til de som legger ut annonsene.
 </p>
 
+<p>
+Velg et nabolag som er trygt.
+På noen få steder er Danske "gangstere"  ofte bevæpnet, og gjengekriminalitet skjer oftere enn du tror.
+Velg et nabolag i nærheten av ditt arbeidssted eller skole. Transport i Danmark er som regel veldig dyrt.
+</p>
 
 <b>Lister over store nettsteder for husleie:</b>
 <ul>
@@ -43,7 +50,7 @@ Vanligvis er Facebook en god og enkel måte å komme i kontakt med utleiere på,
 
 
 <p> <font color="#C60C30"> <b>#</b> </font> Lavprisrom uten godkjent adresseregistrering (a.k.a uten CPR) anbefales ikke.
-Betale ekstra penger kun for HLR-registrering anbefales ikke.
+Betale ekstra penger kun for adresseregistrering anbefales ikke.
 Dette er metoder utleiere bruker for skatteunndragelse. Siden det er ulovlig, er oppholdsretten din utsatt og offisielt kan du ikke få hjelp.
 </p>
 
@@ -91,7 +98,8 @@ mens utleier har plikt til å vedlikeholde både internt og eksternt.</p>
 <p>Internt vedlikehold inkluderer maling av vegger og veggpapir samt beising av gulv i leieavtalen.
 Alt annet går under eksternt vedlikehold.</p>
 
-<p>I noen tilfeller vil utleier at leietaker selv skal ta ansvar for internt vedlikehold. Da skal dette stå skrevet i kontrakten for å unngå uenigheter senere.
+<p>I noen tilfeller vil utleier at leietaker selv skal ta ansvar for internt vedlikehold.
+Da skal dette stå skrevet i kontrakten for å unngå uenigheter senere.
 Leietakeren må da gi fra seg boenheten i samme tilstand som den ble mottatt.
 Ved eventuelle skader må leietakeren selv få ordnet opp feilene, eller eventuelt erstatte skadene.
 Dersom skadene skjer som et utfall av slitasje over lengre tid, er ikke leietaker lengre forpliktet til å måtte ordne opp i dette.</p>
@@ -102,7 +110,7 @@ For detaljerte opplysninger, vennligst les gjennom linkene nedenfor.</p>
 
 
 
-<p><b>Danish Rent Acts</b><br>
+<p><b>Danske leieloven</b><br>
 <a href="http://llo.dk/lejeloven-a-z"> http://llo.dk/lejeloven-a-z</a><br>
 <a href="https://www.retsinformation.dk/forms/r0710.aspx?id=173642">https://www.retsinformation.dk/forms/r0710.aspx?id=173642</a></p>
 
@@ -122,86 +130,94 @@ For detaljerte opplysninger, vennligst les gjennom linkene nedenfor.</p>
     <string name="write_contract">
 <![CDATA[
 
-<p>Contract process is a very important step on the way to get a lease.
-If you are not careful enough, you may end up with agreements you do not want or which may contain potential toxic clauses.</p>
+<p>Kontraktsprosessen er et svært viktig steg på vei til å bli bosatt.
+Hvis du ikke er forsiktig, kan du ende opp med avtaler du ikke vil ha.</p>
 
 
-<b>* Useful terminology *</b>
-<p>In Denmark, it is common for the landlord to request three types of payments from you as you move in.</p>
-<p>The first payment is the monthly rental.</p>
+<b>* Nyttig informasjon  *</b>
+<p>I Danmark er det vanlig for utleier å be om tre typer betalinger når du flytter inn.</p>
+<p>Den første betalingen er det månedlige leiebeløpet.</p>
 
-<p>Second is deposit. With high probability, you may not receive entire deposit back because the deposit will be used to cover painting in the lease and damage made by the tenant.
-Even if you did not do much damage, the landlord may still charge you a small amount of money in the least. For example, wall painting costs is most commonly mentioned by many landlords.
-Refer the previous chapter \"How to lease in Denmark\" for more details.</p>
+<p>Den andre er depositumet. Leietakeren vil ikke motta alle pengene fra depositumet tilbake, siden noe av pengene ofte blir brukt til å dekke malekostnader og eventuelle skader som har oppstått under leieperioden.
+Selv om enheten er i samme tilstand som da du tok over, kan utleieren fortsatt belaste deg en liten sum penger.
+Mange utleiere ber om en avgift for å dekke nymaling av enheten som et minimum. Du vil likevel få igjen det meste av depositumet.
+Se forrige kapittel \ "Hvordan man leier i Danmark \" for detaljer.</p>
 
-<p>Lastly, the prepaid rent.
-This concept might not be familiar to some people. The prepaid rent will be used if you either break the contract or fail to pay the rent.
-As long as you pay your monthly rental on the right time, this money will be used to pay the rent for the last months you are staying in the lease.
-In short, you do not need pay rent the last months.</p>
+<p>Til slutt, forutbetalt leie.
+Dette konseptet er kanskje ikke kjent for ferske leietakere i Danmark. Den forhåndsbetalte leien vil bli brukt dersom du enten bryter kontrakten eller ikke betaler leien.
+Så lenge du betaler din månedlige leie regelmessig, vil disse pengene bli brukt til å betale leien for de siste månedene du bor i leiligheten.
+Kort sagt så trenger du ikke å betale leie de siste månedene.
+</p>
 
-<p>Followings are main steps of how to write a contract.</p>
+<p>For å forhindre dårlig kontraktsignering kan man følge disse punktene:</p>
 
 <p><b>
 <ol>
-<li>1. Check the contract format</li>
-<li>2. Adjustment and report detects</li>
-<li>3. Sign and keep the copy</li>
+<li>1. Sjekk kontraktsformatet</li>
+<li>2. Justering og rapporter</li>
+<li>3. Signer og behold kopien</li>
 </ol></b></p>
 
-<h3>1. Check the contract format</h3>
+<h3>1. Sjekk kontraktsformatet</h3>
 
-<p>The Danish Transport, Construction and Housing Authority offers formal rent contract formats.
-There are two types. Type A is for the general private rental building, and type U is designed for young people in education.
-The Authority does not offer an English version, but you can google and find an unauthorized translated version.</p>
+<p>Danske Trafik-, Bygge- og Boligstyrelsen tilbyr formelle leiekontraktformater.
+Type A er for den generelle private leiebygningen, og type U er utformet for unge i utdanning.
+Myndigheten tilbyr ikke en engelsk versjon, men du kan finne en uoffisiell oversettelse på google.
+</p>
 
-<p><b>Download link</b><br>
+<p><b>Link for nedlasting:</b><br>
 <a href="https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx">https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx</a></p>
 
-<p>If the landlord uses another format, you MUST read through carefully and check all details because of potential toxic clauses.
-For instance, too high annual rental increment or paying rent during refurbishment should be rediscussed with the landlord.
-In the formal contract format given by Danish Transport, Construction and Housing Authority, payments for only power, heating, water, Internet and cable-TV are included.
-No other utility charge can be included in the contract to increase your monthly payment by Danish Rent Act.</p>
+<p>Hvis utleier bruker et annet format, MÅ du lese nøye gjennom for å unngå svindel.
+For eksempel bør årlig leieforhøyelse og betalt leie under oppussing bli diskutert med utleier før signering.
+I det formelle kontraktformatet skal også beløpet for strøm, oppvarming, vann, internett og kabel-TV være oppgitt.
+</p>
 
-<p>Several private companies offer contract control service.
-Such as, <a href="https://kontrakter.boligportal.dk">https://kontrakter.boligportal.dk</a></p>
-
-
-<p> <font color="#C60C30"> <b>#</b> </font>  If the landlord asks you to pay rent in cash, you should know that it is a way of tax evasion.
-Your monthly rent and deposit are also not safe because there is no evidence to proof your payment.</p>
+<p>Flere private selskaper tilbyr kontraktskontrolltjeneste.
+Slik som, <a href="https://kontrakter.boligportal.dk">https://kontrakter.boligportal.dk</a></p>
 
 
-<h3>2. Adjustment and report detects </h3>
-<p>Before signing the contract, one more crucial step is remaining. Remember to check what the monthly rent covers.</p>
+<p> <font color="#C60C30"> <b>#</b> </font> Utleieren kan prøve å ungå skatt ved å spørre om hele eller deler at husleien i kontanter.
+Dette frarådes sterkt, siden det både er ulovelig, og det setter deg i en situasjon hvor du heller ikke vil ha noen bevis for betalt husleie.
+Skulle du havne i en dårlig situasjon med huseier senere, vil du ikke ha noe å henvise til dersom foreksempel huseier beskylder deg for å ikke ha betalt husleien.</p>
 
-<p>A tenant must clarify total amount of monthly rent including utility cost and maintenance expense.
-Notice that power, heating, water, Internet and cable-TV are utilities you should include into your monthly rent.
-Other utilities are NOT under the Rent Act.</p>
 
-<p>According to Danish Rent Acts, a tenant has maintenance obligation for locks and keys.
-If you agreed in the contract, painting on walls and floors in the lease is also included.
-For more detailed info, refer previous chapter \"How to lease in Denmark\" or
-Danish Rent Acts <a href="https://www.retsinformation.dk/forms/r0710.aspx?id=173642">https://www.retsinformation.dk/forms/r0710.aspx?id=173642</a></p>
+<h3>2. Justering og rapportering </h3>
+<p>Før du signerer kontrakten, må du huske å sjekke hva den månedlige utleie dekker.</p>
 
-<p>To prevent potential arguments in the future, it is essential to make a list of defects.
-If any deficient condition of the lease is found, the tenant <b>MUST</b> give a written
-notice of this to the landlord no later than 14 days after the start of the tenancy.
-Else the tenant loses the right to make subsequent claims concerning this deficiency.
-However, this does not apply if the deficiency cannot be discovered with reasonable diligence.</p>
+<p>Leietakeren må ha klart for seg hva den måndelige leien inkulderer, både når det kommer til utstyr og vedlikehold.
+Legg merke til at strøm, oppvarming, vann, trådløse signaler og kabel-TV er utstyr du bør inkludere i din månedlige leie.</p>
 
-<p>It is wise to prepare all the possible bad situations.
-Just ask the landlord for possible misfortunes and consequences before signing.
-Write it down on the contract just in case.</p>
+<p>I følge danske lover har leietaker vedlikeholdsplikt for laser og nøkler.
+Hvis du er enig, er maling og gulvmaling også inkludert.
+For mer detaljert informasjon, se forrige kapittel  \"Hvordan leie man i Danmark\" eller
+Danske leieloven <a href="https://www.retsinformation.dk/forms/r0710.aspx?id=173642">https://www.retsinformation.dk/forms/r0710.aspx?id=173642</a></p>
 
-<h3>3. Sign the contract and keep the copy</h3>
+<p>I tillegg burde man også lage ei liste over tilstanden til leiligheten i starten av kontraktperioden, slik at man unngår uoverensstemmelser i senere tid.
+Hvis det er funnet en mangelfull tilstand av eiendommen, <b>MÅ</b> man gi en skriftlig melding til huseier.
+Dette må skje senest 14 dager etter at leien har startet, ellers kan i verste fall huseier kreve at leietaker erstatter for eventuelle feil.
+Dette gjelder imidlertid ikke dersom det ikke er en mulighet for at feilen kan oppdages ved starten av leieperioden.
+</p>
 
-<p>You <b>MUST</b> demand a contract after viewing the house and meeting the landlord.
-If the landlord procrastinates making a contract, it is a scam.</p>
+<p>Det er lurt å forberede alle mulige dårlige situasjoner.
+Spør utleier om mulige konsekvenser dersom noe går i stykker før signering av kontrakten.
+Åpen kommunikasjon er viktig.
+Om noe blir nevnt kan det være lurt å skrive ned dette på kontrakten.
+Ellers kan huseier attre seg ved en senere anledning.
+</p>
 
-<p>The contract may be written in face to face or by email.
-It is important that you have enough time to look through the contract and have an extra meeting for editing or asking about the contract.
-Do not be afraid to ask for another extra meeting to the landlord if something is unclear or you need time to contact the Danish Tenants Association.
-After the landlord signs the contract, then you sign.
-Do not forget to keep a copy of the contract.</p>
+<h3>3. Signer kontrakten og behold kopien</h3>
+
+<p>Etter å ha vært på prøvevisning og snakket med utleier er det viktig å <b>kreve</b> leiekontrakt.
+Noen utleiere prøver å unngå leiekontrakter, men dette er som regel et tegn på svindel.
+Kontrakten er det eneste som kan hjelpe deg dersom noe skulle gå galt.</p>
+
+<p>Ofte skrives kontrakten ved et møte mellom utleier og leietaker, men noen velger å sende kontrakt på e-post også. Dette er OK.
+Det er viktig at du har nok tid til å se gjennom kontrakten og ha ekstra møte for å redigere eller spørre om kontrakten dersom dette skulle trenges.
+Ikke vær redd for å spørre huseier om et ekstra møte dersom noe er uklart, eller om du trenger tid til å kontakte den danske leietaker foreningen.
+Etter at utleier signerer kontrakten, så signerer du.
+Ikke glem å beholde en kopi av kontrakten.
+</p>
 
 
 ]]>
@@ -214,66 +230,69 @@ Do not forget to keep a copy of the contract.</p>
     //Move out
     <string name="move_out_content">
  <![CDATA[
-<p>This chapter deals with lease termination, move out inspection, and deposit.</p>
+<p>I dette kapittelet ser vi nærmere på leieavtalen, utflytningsinspeksjonen og depositumet. </p>
 
-<h3>1. Termination</h3>
-<h4>1.1 Early Termination</h4>
+<h3>1.  Oppsigelse </h3>
+<h4>1.1 Tidlig oppsigelse </h4>
 
-<p>If serious shortcomings are found in the lease so that you can not live in the lease, claim a refund for the rent at the time the lease is uninhabitable.
-You may be able to cancel the lease if the landlord does not immediately remedy the shortcomings.</p>
+<p>Hvis det finnes alvorlige mangler i leieavtalen, slik at du ikke kan leve med leieavtalen, kan du kreve tilbakebetaling for leien i den perioden boenheten er ikke er beboelig.
+Du kan muligens avbryte leieavtalen dersom utleieren ikke fikser feilene umiddelbart. </p>
 
-<h4>1.2 Normal Termination</h4>
+<h4>1.2 Normal oppsigelse </h4>
 
-<p>If the lease period is fixed, the lease terminates without notice.
-Upon limited rental period, written notice is required and a length of notice depends on type of your lease.
-For a flat/apartment where the landlord does not cohabit in, three-month prior notice is requested.
-For a flat/house occupied by the landlord, however, the tenancy of separate rooms may be terminated by one-month prior notice.
-Otherwise, the length of notice may be agreed in the contract.</p>
+<p>Hvis leieperioden er fastsatt, opphører leieavtalen uten varsel.
+Ved begrenset leieperiode kreves skriftlig varsel, og typen varsel gjelder avhengig av typen leieavtale.
+For en leilighet der utleieren ikke bor i samme hus, er tre måneders varsling vanlig.
+For et rom der utleier bor i samme hus, kan kontrakten avsluttes med en måned varsel.
+Ellers kan varigheten bli avtalt i kontrakten.
+</p>
 
-<h4>1.3 Termination by the landlord.</h4>
-<p>The tenancy agreement can only be terminated by the landlord.
-The landlord must give 1 month notice to terminate a separated room.
-One year notice to terminate a tenancy is required for an entire apartment or a flat.
-Regardless of the length of the period of notice, notice must be given on the first weekday of a month not preceding a public holiday.</p>
-
-
-<h3>2. Moving out inspection</h3>
-
-<p>Under the lease, two types of maintenance exist, internal maintenance and external maintenance.
-Internal maintenance includes whitening, painting, wallpapering and painting of floors in the lease.
-All other maintenance than internal maintenance is considered as external maintenance.</p>
-
-<p>According to Danish Rent Acts, a tenant has only one maintenance obligation in their lease, maintain or renew locks and keys,
-while the landlord has obligation to both internal and external maintenance.
-However, if the tenant has agreed to the responsibility to carry out the internal maintenance on the contract,
-at the termination of the tenancy, the tenant must return the property in the same condition as it was at the commencement of the tenancy.
-This means that before moving out the tenant must carry out the maintenance of the ceilings, walls, floors etc.
-Any damage caused by fair wear and tear and lapse of time is not obligated to remedy.</p>
+<h4>1.3 Oppsigelse fra utleier. </h4>
+<p> Utleier må gi varsel 1 måned i forvegen dersom du leier et enkelt rom i samme hus som utleier bor i.
+Dersom du leier en hel leilighet må utleier si ifra ett år i forvegen.
+Uansett lengde på oppsigelsesperioden må beskjeden være gitt før den første ukedagen i hver måned.
+</p>
 
 
-<p>If you are in doubt about inspection, contact your local LLO department. If you are a member of LLO, you can ask them to do the inspectionfor you.<br>
-Find more details at<br>
+<h3>2. Inspeksjon før utflytning </h3>
+
+<p>Vedlikeholdet deles som regel inn i to forskjellige typer: internt og eksternt vedlikehold.
+Internt vedlikehold inkluderer maling av vegger, veggpapir og maling av gulv, mens alt annet vedlikehold betraktes som eksternt vedlikehold.
+</p>
+
+<p>Ifølge de danske lovene har en leietakeren kun ansvar for vedlikehold av låser og nøkler,
+mens utleieren har plikt til å vedlikeholde alt annet både internt og eksternt.
+Derimot kan leietakeren ta på seg ansvaret om å vedlikeholde flere ting enn normalt, dersom dette står skrevet i kontrakten. Hvis dette står oppgitt i leiekontrakten, må leietaker returnere boenheten i samme tilstand som leietaker mottok den.
+Dette kan for eksempel være vedlikehold av tak, vegger, gulv etc.
+Eventuelle skader forårsaket av slitasje over lengre tid er derimot ikke leietakerens ansvar.
+</p>
+
+
+<p>Hvis du er i tvil om inspeksjonen, ta kontakt med din lokale LLO-avdeling. Hvis du er medlem av LLO, kan du be dem om å gjøre inspeksjonen for deg. <br>
+Finn flere detaljer på <br>
 <a href="http://llo.dk/lejeloven-a-z">http://llo.dk/lejeloven-a-z</a></p>
 
 
-<h3>3. Deposit</h3>
-<p>The landlord is not obliged to return the deposit on the day the tenant leaves the rented property.
-The landlord is assumed to calculate all possible costs of renovation and return the deposit within one or one and a half month from the date of tenant\'s moving out.
-The landlord shall inform the tenant in a written format within two weeks (up to four weeks at the latest if the contracts provides such an option)
-when renovation or repairs is required.
-If the landlord does not meet the deadline of the notification, the landlord is not allowed to claim any costs from the tenant and must return the deposit in full.
-The landlord is not obliged to information within these two weeks about the price of renovations (or other deadline specified in the contract) if the cost of the renovations has not been estimated yet.<p>
+<h3>3. Depositum </h3>
+<p>Utleier er ikke forpliktet til å returnere depositumet samme dagen som leietaker forlater boenheten.
+Utleier skal ha tid til å se over boenheten og legge i sammen summen for eventuell erstatning.
+Depositumet skal senest bli tilbakesendt mellom en og en-og-en-halv måned etter at leietakeren har flyttet ut.
+Utleier skal informere leietaker skriftlig innen to uker (opptil fire uker senest dersom kontraktene gir et slikt alternativ) hvis det er nødvendig med renovering eller reparasjoner.
+Dersom utleier ikke forholder seg innenfor tidsfristene, mister utleier også retten på å kreve renovasjonspenger fra leietaker.
+Dette betyr at hele depositumet skal sendes tilbake til leietaker.
+<p>
 
-<p>If the landlord is overdue for the payment of the deposit, the tenant must send a letter including sum of all paid rent with receipts
-indicating the deadline for giving back the deposit and bank account number.
-If the landlord still evades the obligation of returning the deposit, the tenant must contact a tenants organization dealing with such cases for its members, e.g., LLO, or ask a lawyer.
-Please refer "Legal Aid" section for free legal advice in this app.</p>
+<p>Dersom utleier er forsinket med betaling av depositumet, må leietaker sende et brev til utleieren hvor bevis for betalt husleie er inkludert, og en ny frist for å motta depositum, samt et kontonummer.
+Hvis utleier fortsatt unngår å returnere depositumet, må leietakeren kontakte en leietakerorganisasjon som håndterer slike saker, for eksempel LLO. Eventuelt kontakt en advokat.
+Vennligst se "Rettshjelp" delen for gratis juridisk rådgivning i denne appen.
+</p>
 
-<p>Huslejenævnet is a department specialized in contentious tenancy and deposit issues, operating in every commune in Denmark.
-Huslejenævnet may not handle all types of cases related to lease,
-it is therefore worth joining a tenant\'s organization to get quick help when the need arises or contacting a law office.</p>
+<p>Huslejenævnet er en avdeling som er spesialisert på omstridte leie- og innskuddsspørsmål. De holder til i samtlige kommuner i Danmark.
+Huslejenævnet kan dessverre ikke håndtere alle typer saker knyttet til leieavtaler, så det er derfor verdt å bli med i leietakers organisasjon for å få rask hjelp når behovet oppstår.
+Eventuelt kontakt et advokatfirma.
+</p>
 
-<p>More info about Huslejenævnet is at<br>
+<p>Mer informasjon om Huslejenævnet er på <br>
 <a href="http://www.huslejenaevn.dk">http://www.huslejenaevn.dk</a><br>
 <a href="https://www.borger.dk/bolig-og-flytning/Lejebolig/Huslejenaevn">https://www.borger.dk/bolig-og-flytning/Lejebolig/Huslejenaevn</a></p>
 
@@ -285,29 +304,30 @@ it is therefore worth joining a tenant\'s organization to get quick help when th
     <string name="legal_aid_content">
 <![CDATA[
 
-<p>When it comes to rent and lease, arguments between landlord and tenant may occur. In Denmark, free legal aid is available for everyone.</p>
+<p>Når det kommer til utleie kan det oppstå argumenter mellom utleier og leietaker.
+I Danmark er finnes det tilgjengelig gratis juridisk hjelp for alle som skulle ønske dette. </p>
 
-<p>According to The City of Copenhagens web page, you can get help in Retshjaelpen and libraries in every kommune (Advokatvagten).</p>
-<p>To use Retshjaelpen, you must meet a specific income condition while Advokatvagten has no requirements.</p>
+<p>I henhold til The City of Copenhagens nettside kan du få hjelp i Retshjaelpen og biblioteker i hver kommune (Advokatvagten). </p>
+<p>For å bruke Retshjaelpen må du oppfylle en bestemt inntektstilstand, mens Advokatvagten ikke har noen spesielle krav. </p>
 
 
-<p><i>\"In order to get help from Københavns Retshjælp, your personal income must not exceed DKK 308.000 a year if you are single.<br>
-If you are married or living with a partner, your joint income must not exceed DKK 391.000 a year\"</i></p>
+<p><i>\"For å få hjelp fra Københavns Retshjælp må din personlige inntekt ikke overstige 308.000 DKK i året hvis du er ugift. <br>
+Hvis du er gift eller har samboer, må din fellesinntekt ikke overstige 391.000 DKK i året. \"</i></p>
 
-<p><b>Retshjaelpen website</b>
+<p><b>Retshjaelpen nettsted </b>
 <a href="http://www.retshjaelpen.dk/front-page">http://www.retshjaelpen.dk/front-page</a><br></p>
 
-<b>Another Retshjaelpen website</b>
+<b>En annen Retshjaelpen-nettside </b>
 <a href="http://www.socialeretshjaelp.dk/">http://www.socialeretshjaelp.dk/</p>
 
-<p><b>List of libraries (Advokatvagten)</b><br>
+<p><b>Liste over biblioteker (Advokatvagten) </b><br>
 <a href="http://www.advokatvagterne.dk/content/listen-over-advokatvagter">http://www.advokatvagterne.dk/content/listen-over-advokatvagter</a><p>
 
-<p>More info at<p>
+<p>Mer informasjon på <p>
 <b>The City of Copenhagen web page</b> <br>
 <a href="https://international.kk.dk/artikel/can-i-get-legal-aid">https://international.kk.dk/artikel/can-i-get-legal-aid</a>
 
-<p><b>Largest tenants associations</b><br>
+<p><b>De største leietakereforeninger </b><br>
 <a href="http://llo.dk">http://llo.dk</a> <br>
 <a href="http://dklf.dk/">http://dklf.dk/</a></p>
 
@@ -456,6 +476,9 @@ If you are married or living with a partner, your joint income must not exceed D
     <string name="room">Rom</string>
     <string name="roompicture">Romdetaljer</string>
     <string name="save">Lagre</string>
+    <string name="title_wall_four">Vegg 4</string>
+    <string name="title_wall_three">Vegg 3</string>
+    <string name="title_wall_two">Vegg 2</string>
 
 
 </resources>

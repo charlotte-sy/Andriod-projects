@@ -1,5 +1,7 @@
 package com.example.android.boligchecker.myside;
 
+import android.annotation.TargetApi;
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,6 +11,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebResourceError;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -56,26 +62,7 @@ import java.net.URL;
  * Created by Seoyeon on 16/12/2017.
  */
 
-public class FastCheckFragment extends BaseFragment implements  View.OnClickListener {
-
-    URL url = createUrl("http://www.yahoo.com/");
-
-
-
-
-    /**
-     * Returns new URL object from the given string URL.
-     */
-    private static URL createUrl(String stringUrl) {
-        URL url = null;
-        try {
-            url = new URL(stringUrl);
-        } catch (MalformedURLException e) {
-            Log.e(LOG_TAG, "Problem building the URL ", e);
-        }
-        return url;
-    }
-
+public class FastCheckFragment extends BaseFragment {
 
 
     @Override
@@ -86,21 +73,24 @@ public class FastCheckFragment extends BaseFragment implements  View.OnClickList
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        final View fastCheckView = inflater.inflate(R.layout.fast_check_fragment, container, false);
 
-        View fastCheckView = inflater.inflate(R.layout.fast_check, container, false);
+        final WebView myWebView = (WebView) fastCheckView.findViewById(R.id.fast_check_webview);
+        Button webViewButton = (Button) fastCheckView.findViewById(R.id.fast_check_webpage_button);
 
-    //    Button button1 = (Button) fastCheckView.findViewById(R.id.webpage_button);
+        webViewButton.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-     //   button1.setOnClickListener(this);
+                myWebView.getSettings().setJavaScriptEnabled(true);
+                myWebView.loadUrl("http://boligejer.dk");
+
+            }
+        }));
+
 
         return fastCheckView;
     }
-
-    @Override
-    public void onClick(View v) {
-
-    }
-
 
 
 

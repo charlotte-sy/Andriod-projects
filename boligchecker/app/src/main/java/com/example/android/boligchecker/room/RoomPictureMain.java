@@ -55,11 +55,13 @@ public class RoomPictureMain extends BaseFragment implements  View.OnClickListen
                 startActivity(intent1);
                 break;
             case R.id.check_list_button:
-                fragment = new ContractFragment();
-                ft.remove(fm.findFragmentById(R.id.content_frame))
-                        .add(R.id.content_frame, fragment)
-                        .addToBackStack(null)
-                        .commit();
+                Intent intent2 = new Intent(getActivity(), CheckList.class);
+                startActivity(intent2);
+                //  fragment = new CheckList();
+                //ft.remove(fm.findFragmentById(R.id.content_frame))
+                //  .add(R.id.content_frame, fragment)
+                //   .addToBackStack(null)
+                //   .commit();
                 break;
         }
 

@@ -30,6 +30,8 @@ import com.example.android.boligchecker.fragments.MysideFragment;
 import com.example.android.boligchecker.fragments.RentFragment;
 import com.example.android.boligchecker.room.RoomPictureMain;
 
+import java.net.MalformedURLException;
+
 import static android.R.attr.fragment;
 import static com.example.android.boligchecker.R.string.fast_safety_check;
 import static com.mikepenz.iconics.Iconics.TAG;
@@ -133,26 +135,24 @@ public class MainMypage extends BaseFragment implements  View.OnClickListener {
 
             switch (v.getId()) {
                 case R.id.fast_check_button:
-                    Intent intent = new Intent(getActivity(), FastCheckActivity.class);
-                    startActivity(intent);
-
+                        fragment = new FastCheckFragment();
+                    // Intent intent = new Intent(getActivity(), FastCheckActivity.class);
+                    // startActivity(intent);
+                    break;
                 case R.id.room_picture_button:
                     fragment = new RoomPictureMain();
-                    ft.remove(fm.findFragmentById(R.id.content_frame))
-                            .add(R.id.content_frame, fragment)
-                            .addToBackStack(null)
-                            .commit();
+
                     break;
                 case R.id.contract_button:
                     fragment = new MysideFragment();
-                    ft.remove(fm.findFragmentById(R.id.content_frame))
-                            .add(R.id.content_frame, fragment)
-                            .addToBackStack(null)
-                            .commit();
+
                     break;
 
             }
-
+        ft.remove(fm.findFragmentById(R.id.content_frame))
+                .add(R.id.content_frame, fragment)
+                .addToBackStack(null)
+                .commit();
 
 
 

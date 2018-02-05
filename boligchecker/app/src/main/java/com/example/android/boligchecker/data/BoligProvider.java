@@ -66,7 +66,7 @@ public class BoligProvider extends ContentProvider {
 
     @Override
     public boolean onCreate() {
-        // TODO: Create and initialize a PetDbHelper object to gain access to the pets database.
+        // Create and initialize a PetDbHelper object to gain access to the pets database.
         // Make sure the variable is a global variable, so it can be referenced from other
         // ContentProvider methods.
 

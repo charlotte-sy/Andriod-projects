@@ -30,9 +30,10 @@ However, various different types of scam may hook you up at one careless moment.
 <h3>1. Find a room/house in websites</h3>
 <p>In Denmark, it is very common to find a room/house online.
 Majority of Danish renting sites require you to pay for the service after few days of a trial period, while several house-renting groups at Facebook are free of charge.
+It is good to be careful that if you are not cancel their trial on time, you are automatically bound to subscribe.
 Usually, contacting to a landlord in Facebook is an easy and inexpensive way to find a room, however frauds dwell in an easy place, so you must secure yourself.</p>
 
-<p>Choose a neighbourhood as safe as possible. Danish gangsters possess guns and gang crimes happen often than you think.<br>
+<p>Choose a neighbourhood as safe as possible. In a few places, Danish gangsters possess guns and gang crimes happen often than you think.<br>
 Choose a neighbourhood close to your work/school because transportation fare is expensive in Denmark.</p>
 
 
@@ -136,7 +137,7 @@ If you are not careful enough, you may end up with agreements you do not want or
 <p>In Denmark, it is common for the landlord to request three types of payments from you as you move in.</p>
 <p>The first payment is the monthly rental.</p>
 
-<p>Second is deposit. With high probability, you may not receive entire deposit back because the deposit will be used to cover painting in the lease and damage made by the tenant.
+<p>Second is deposit. A tenant may not receive entire deposit back because the deposit will be used to cover painting in the lease and damage made by oneself.
 Even if you did not do much damage, the landlord may still charge you a small amount of money in the least. For example, wall painting costs is most commonly mentioned by many landlords.
 Refer the previous chapter \"How to lease in Denmark\" for more details.</p>
 
@@ -164,7 +165,7 @@ The Authority does not offer an English version, but you can google and find an 
 <a href="https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx">https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx</a></p>
 
 <p>If the landlord uses another format, you MUST read through carefully and check all details because of potential toxic clauses.
-For instance, too high annual rental increment or paying rent during refurbishment should be rediscussed with the landlord.
+For instance, too high annual rental increment or paying rent during refurbishment should be re-discussed with the landlord.
 In the formal contract format given by Danish Transport, Construction and Housing Authority, payments for only power, heating, water, Internet and cable-TV are included.
 No other utility charge can be included in the contract to increase your monthly payment by Danish Rent Act.</p>
 
@@ -237,8 +238,7 @@ For a flat/house occupied by the landlord, however, the tenancy of separate room
 Otherwise, the length of notice may be agreed in the contract.</p>
 
 <h4>1.3 Termination by the landlord.</h4>
-<p>The tenancy agreement can only be terminated by the landlord.
-The landlord must give 1 month notice to terminate a separated room.
+<p>The landlord must give 1 month notice to terminate a separated room.
 One year notice to terminate a tenancy is required for an entire apartment or a flat.
 Regardless of the length of the period of notice, notice must be given on the first weekday of a month not preceding a public holiday.</p>
 
@@ -323,7 +323,25 @@ If you are married or living with a partner, your joint income must not exceed D
 
     </string>
 
+//About
+    <string name="about_content">
+<![CDATA[
 
+All context from this app is from three resources.
+
+<p><b>Danish Rent Acts</b><br>
+<a href="http://llo.dk/lejeloven-a-z"> http://llo.dk/lejeloven-a-z</a><br>
+<a href="https://www.retsinformation.dk/forms/r0710.aspx?id=173642">https://www.retsinformation.dk/forms/r0710.aspx?id=173642</a></p>
+
+<p><b>The Danish Transport, Construction and Housing Authority</b><br>
+<a href="https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx">https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx</a></p>
+
+This app does not
+
+
+    ]]>
+
+    </string>
 
 
     //drawer_viewer

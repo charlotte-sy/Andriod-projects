@@ -463,6 +463,9 @@ If you are married or living with a partner, your joint income must not exceed D
     <string name="room">Room</string>
     <string name="roompicture">Room Details</string>
     <string name="save">Save</string>
+    <string name="title_wall_four">Wall 4</string>
+    <string name="title_wall_three">Wall 3</string>
+    <string name="title_wall_two">Wall 2</string>
 
 
 </resources>

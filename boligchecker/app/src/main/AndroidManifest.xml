@@ -41,7 +41,6 @@
             </intent-filter>
         </activity>
 
-
         <activity
             android:name=".BoligActivity"
             android:parentActivityName=".MainActivity"
@@ -95,6 +94,20 @@
             android:exported="false"
             />
 
+        <activity
+            android:name=".room.CheckList"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme"
+            >
+        </activity>
+
+        <activity android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            android:name=".room.ModifyCountryActivity"
+            />
+
+        <activity android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            android:name=".room.AddCountryActivity"
+             />
 
     </application>
 
