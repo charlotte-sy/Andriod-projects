@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
         android:ems="10"
-        android:hint="Type your own check list item!"
+        android:hint="@string/ch_popupdescription"
         android:inputType="textMultiLine"
         android:minLines="5" >
     </EditText>
@@ -20,6 +20,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="ADD" />
+        android:text="@string/ch_add" />
 
 </LinearLayout>

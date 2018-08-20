@@ -24,7 +24,7 @@ public class AddCountryActivity extends Activity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setTitle("Add Check List Item");
+        setTitle(R.string.ch_popuptitle);
 
         setContentView(R.layout.activity_add_record);
 

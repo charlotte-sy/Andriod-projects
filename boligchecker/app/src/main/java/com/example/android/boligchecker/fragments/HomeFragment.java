@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
+import android.support.v4.app.FragmentManager;
 
 import com.example.android.boligchecker.R;
 import com.example.android.boligchecker.base.BackButtonSupportFragment;
@@ -35,6 +36,9 @@ public class HomeFragment extends BaseFragment implements BackButtonSupportFragm
         contractImage.setOnClickListener(this);
         legalImage.setOnClickListener(this);
         moveImage.setOnClickListener(this);
+
+     // clearBackStack();
+
     }
 
     @Nullable
@@ -45,6 +49,15 @@ public class HomeFragment extends BaseFragment implements BackButtonSupportFragm
 
     }
 
+
+    private void clearBackStack() {
+        FragmentManager manager = getActivity().getSupportFragmentManager();
+        if (manager.getBackStackEntryCount() > 0) {
+          //  manager.popBackStackImmediate(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+            FragmentManager.BackStackEntry first = manager.getBackStackEntryAt(0);
+           manager.popBackStack(first.getId(), FragmentManager.POP_BACK_STACK_INCLUSIVE);
+        }
+    }
 
     @Override
     public void onClick(View v) {

@@ -14,6 +14,7 @@ import android.media.MediaScannerConnection;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -236,12 +237,16 @@ public class WallOne extends AppCompatActivity {
             storageDir.mkdirs();
         }
 
-        File file[] = storageDir.listFiles();
+        File[] file = storageDir.listFiles();
 
-        for(int i = 0; i< file.length; i++){
-            CreateList createList = new CreateList();
-            createList.setImage_Location(file[i]);
-            theimage.add(createList);
+        if(file != null) {
+
+            for (int i = 0; i < file.length; i++) {
+                CreateList createList = new CreateList();
+                createList.setImage_Location(file[i]);
+                theimage.add(createList);
+            }
+
         }
 
         return theimage;

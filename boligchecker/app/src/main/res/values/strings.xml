@@ -324,10 +324,23 @@ If you are married or living with a partner, your joint income must not exceed D
     </string>
 
 //About
-    <string name="about_content">
+<string name="about_content">
 <![CDATA[
+<p>
+Please read the Terms of Use carefully before you start to use this mobile application.
+By using the mobile application, you accept and agree to be bound and abide by these Terms of Use and our Privacy Policy incorporated here by reference.
+If you do not want to agree to these Terms of Use or the Privacy Policy, you must exit this mobile application.
+Remember, by using any part of the mobile application, you accept and agree to our privacy practices.</p>
 
-All context from this app is from three resources.
+<h3>Terms of Use</h3>
+
+<p><b>Reliance on Information Posted</b></p>
+<p>All context from this mobile application is from the three resources below.
+The information presented on or through the mobile application is made available solely for general information purposes.
+We do not warrant the accuracy, completeness or usefulness of this information.
+Any reliance you place on such information is strictly at your own risk.
+We disclaim all liability and responsibility arising from any reliance placed on such materials by you or any other visitor to the mobile application, or by anyone who may be informed of any of its contents.</p>
+
 
 <p><b>Danish Rent Acts</b><br>
 <a href="http://llo.dk/lejeloven-a-z"> http://llo.dk/lejeloven-a-z</a><br>
@@ -336,7 +349,42 @@ All context from this app is from three resources.
 <p><b>The Danish Transport, Construction and Housing Authority</b><br>
 <a href="https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx">https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx</a></p>
 
-This app does not
+<p><b>Disclaimer in relation to links to third party websites</b></p>
+<p>Boligchecker contains links to websites owned and operated by third parties.
+These links are provided for your information and convenience only and are not an endorsement by Boligchecker of the content of such linked websites or third parties.
+Boligchecker has no control over the contents of any linked website and is not responsible for these websites or their content or availability.</p>
+
+
+<p><b>Changes to the mobile application</b></p>
+<p>We may update the mobile application from time to time, but its content is not necessarily complete or up-to-date.
+Any of the material on the mobile application may be out of date at any given time, and we are under no obligation to update such material.
+We may change the mobile application at any time with or without notice.
+We may suspend access to the mobile application, or close it indefinitely.</p>
+
+<p><b>Limitation on Liability</b></p>
+<p>In no event will the company, its affiliates or their licensors, service providers, employees, agents, officers or directors be liable for damages of any kind,
+under any legal theory, arising out of or in connection with your use, or inability to use, the mobile application, any websites linked to it,
+any content on the mobile application or such other websites or any services or items obtained through the mobile application or such other websites, including any direct, indirect, special, incidental, consequential or punitive damages,
+including but not limited to, personal injury, pain and suffering, emotional distress, loss of revenue, loss of profits, loss of business or anticipated savings,
+loss of use, loss of goodwill, loss of data, and whether caused by tort (including negligence), breach of contract or otherwise, even if foreseeable.</p>
+
+<p>The foregoing does not affect any liability which cannot be excluded or limited under applicable law.</p>
+
+<h3>Privacy Policy</h3>
+
+<p><b>Accessing and Correcting Your Personal Information</b></p>
+<p>We do not store any data including your personal information.
+This denotes that any photo and any check list item are not saved if you delete the mobile application.
+We are under no obligation on data loss due to updating and deleting the mobile application.</p>
+
+<p><b>Contact Information</b></p>
+<p>All other feedback, comments, requests for technical support and other communications relating to the mobile application should be directed to:
+webmaster@boligchecker.dk.</p>
+
+<p><b>Rights clearance</b></p>
+<p>Icon resources<br>
+Thanks to Google material icon team.
+Icon made by Vectors Market, Freepik, and Prettycons from www.flaticon.com </p>
 
 
     ]]>
@@ -350,6 +398,7 @@ This app does not
     <string name="rent_process">Rent Process</string>
     <string name="contract">Contract</string>
     <string name="setting">Setting</string>
+    <string name="terms">Terms of Use</string>
 
     //main_card_list
     <string name="detailed_address">Address line</string>
@@ -478,6 +527,13 @@ This app does not
     //fast check activity
     <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
     <string name="title_fast_check">Fast Safety Checker</string>
+
+    //check list
+    <string name="ch_title">Check List</string>
+    <string name="ch_popuptitle">Add Check List Item</string>
+    <string name="ch_popupdescription">Type your own check list item!</string>
+    <string name="ch_add">ADD</string>
+
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

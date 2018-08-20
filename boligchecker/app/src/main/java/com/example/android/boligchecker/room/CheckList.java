@@ -67,7 +67,7 @@ public class CheckList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.check_list);
-        setTitle("Check List");
+        setTitle(R.string.ch_title);
 
 
         dbManager = new CheckListDataManager(this);

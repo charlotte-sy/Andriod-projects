@@ -12,6 +12,7 @@ import android.os.LocaleList;
 import android.support.annotation.RequiresApi;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.support.v4.app.FragmentManager;
 
 import com.example.android.boligchecker.MainActivity;
 import com.example.android.boligchecker.SplashActivity;
@@ -69,6 +70,9 @@ public class MyContextWrapper extends ContextWrapper {
 
         return new ContextWrapper(context);
     }
+
+
+
 
     public static void setLocalLanguageType(Context context, String autostatus) {
         saveString(context, "LocalLanguageType", autostatus);

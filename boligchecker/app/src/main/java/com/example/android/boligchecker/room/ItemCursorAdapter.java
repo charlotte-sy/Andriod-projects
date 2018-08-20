@@ -26,20 +26,22 @@ import static android.R.attr.checked;
 /**
  * Created by Seoyeon on 04/02/2018.
  */
-
 public class ItemCursorAdapter extends SimpleCursorAdapter {
 
-   // private Context mContext;
-   // private ArrayList<String> id;
-  //  private ArrayList<String> firstName;
- //   private ArrayList<Boolean> ConFirm; //better name it confirm, it's one word
+    // private Context mContext;
+    // private ArrayList<String> id;
+    //  private ArrayList<String> firstName;
+    //   private ArrayList<Boolean> ConFirm; //better name it confirm, it's one word
 
-    private Context mContext;
-    private Context appContext;
-    private int layout;
+
     private Cursor cr;
-    //  private final LayoutInflater inflater;
-    boolean[] checked;
+    private Context mContext;
+    //  private Context appContext;
+    //  private int layout;
+
+    private ArrayList<String> list = new ArrayList<String>();
+    private ArrayList<Boolean> itemChecked = new ArrayList<Boolean>();
+
 
     List<Integer> selectedItemsPositions;
 
@@ -68,18 +70,17 @@ public class ItemCursorAdapter extends SimpleCursorAdapter {
         CheckBox checkBox = (CheckBox) view.findViewById(R.id.check_list_checkbox);
         final int position = cursor.getPosition();
         checkBox.setOnCheckedChangeListener(null);
-        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener()
-        {
+        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
-            {
-                Toast.makeText(Context,"Hello Javatpoint" + position ,Toast.LENGTH_SHORT).show();
-
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 dbManager = new CheckListDataManager(Context);
                 dbManager.open();
                 dbManager.update(position, 1);
 
+                Toast.makeText(Context, "@string/action_save" + position, Toast.LENGTH_SHORT).show();
+
             }
+
         });
 
 
@@ -93,13 +94,10 @@ public class ItemCursorAdapter extends SimpleCursorAdapter {
         // cb.setOnCheckedChangeListener(this);
         //int position = (Integer)v.getTag();
         // checked[position] = cb.isChecked(); } /* CheckBox changed Listener */
-        }
-
-    private void init() {
-        checked = new boolean[getCount()];
     }
 
-
-
-
+//  private void init() {
+// checked = new boolean[getCount()]};
 }
+
+

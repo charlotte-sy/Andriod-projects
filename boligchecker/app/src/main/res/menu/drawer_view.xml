@@ -25,7 +25,7 @@
             android:title="@string/move_out" />
 
         <item
-            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:icon="@drawable/ic_gavel_black_24dp"
             android:id="@+id/nav_fourth_fragment"
             android:title="@string/legal_aid" />
     </group>
@@ -38,6 +38,11 @@
                     android:icon="@drawable/ic_language_black_24dp"
                     android:id="@+id/setting_fragment"
                     android:title="@string/setting" />
+
+                <item
+                    android:icon="@drawable/ic_priority_high_black_24dp"
+                    android:id="@+id/terms_fragment"
+                    android:title="@string/terms" />
 
             </group>
         </menu>

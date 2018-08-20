@@ -1,10 +1,12 @@
 package com.example.android.boligchecker;
 
 
+import android.Manifest;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -27,6 +29,7 @@ import android.webkit.WebViewFragment;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.android.boligchecker.base.AddFragmentHandler;
 import com.example.android.boligchecker.base.BackButtonSupportFragment;
@@ -40,6 +43,7 @@ import com.example.android.boligchecker.fragments.MoveFragment;
 import com.example.android.boligchecker.fragments.MysideFragment;
 import com.example.android.boligchecker.fragments.RentFragment;
 import com.example.android.boligchecker.fragments.SettingFragment;
+import com.example.android.boligchecker.fragments.TermsFragment;
 import com.example.android.boligchecker.myside.MainMypage;
 
 
@@ -257,6 +261,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             fragment = new LegalFragment();
         } else if (id == R.id.setting_fragment) {
             fragment = new SettingFragment();
+        } else if (id == R.id.terms_fragment) {
+            fragment = new TermsFragment();
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();

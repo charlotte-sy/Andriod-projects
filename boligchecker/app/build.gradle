@@ -33,7 +33,7 @@ dependencies {
     compile 'com.android.support:design:25.3.1'
     compile 'com.android.support:support-v4:25.3.1'
     compile 'net.skoumal.fragmentback:fragment-back:0.2.3'
-    compile 'com.jakewharton.timber:timber:4.6.0'
+  //  compile 'com.jakewharton.timber:timber:4.6.0'
     compile 'net.hockeyapp.android:HockeySDK:4.0.1'
     compile 'com.squareup.picasso:picasso:2.3.3'
     compile 'com.android.support:recyclerview-v7:25.3.1'

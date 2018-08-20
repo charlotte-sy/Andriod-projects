@@ -336,6 +336,77 @@ Hvis du er gift eller har en partner, må din fælles indkomst ikke overstige 39
 
     </string>
 
+
+
+    //About
+    <string name="about_content">
+<![CDATA[
+<p>
+Læs venligst brugsvilkårene nøje, inden du begynder at bruge denne mobilapplikation.
+Ved at bruge mobilapplikationen accepterer og accepterer du at være bundet og overholde disse brugsbetingelser og vores privatlivspolitik indarbejdet her som reference.
+Hvis du ikke vil acceptere disse vilkår for brug eller privatlivspolitikken, skal du afslutte denne mobilapplikation.
+Husk, at du ved at bruge en del af mobilapplikationen accepterer og accepterer vores privatlivspraksis.</p>
+
+<h3>Vilkår for brug</h3>
+
+<p><b>Stol på information indsendt</b></p>
+<p>Alt sammenhæng fra denne mobilapplikation er fra de tre ressourcer nedenfor.
+Oplysningerne, der præsenteres på eller gennem mobilapplikationen, stilles til rådighed udelukkende til generelle oplysningsformål.
+Vi garanterer ikke nøjagtigheden, fuldstændigheden eller brugen af ​​disse oplysninger.
+Enhver afhængighed, du placerer på sådanne oplysninger, er strengt på egen risiko.
+Vi fralægger os ethvert ansvar og ansvar, der opstår som følge af enhver afhængighed af sådanne materialer af dig eller enhver anden besøgende på mobilapplikationen eller af enhver, der kan blive informeret om noget af indholdet.</p>
+
+
+<p><b>Den danske lejelov</b><br>
+<a href="http://llo.dk/lejeloven-a-z"> http://llo.dk/lejeloven-a-z</a><br>
+<a href="https://www.retsinformation.dk/forms/r0710.aspx?id=173642">https://www.retsinformation.dk/forms/r0710.aspx?id=173642</a></p>
+
+<p><b>Dansk Trafik-, Bygge- og Boligstyrelsen</b><br>
+<a href="https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx">https://www.trafikstyrelsen.dk/DA/Bolig/Bolig/Private-lejeboliger/Lejekontrakt.aspx</a></p>
+
+<p><b>Ansvarsfraskrivelse i forbindelse med links til tredjeparts hjemmesider</b></p>
+<p>Boligchecker indeholder links til websteder, der ejes og drives af tredjeparter.
+Disse links er kun til din information og bekvemmelighed og er ikke en godkendelse fra Boligchecker af indholdet af sådanne tilknyttede websteder eller tredjeparter.
+Boligchecker har ingen kontrol over indholdet på en linket hjemmeside og er ikke ansvarlig for disse hjemmesider eller deres indhold eller tilgængelighed. </p>
+
+<p><b>Ændringer i mobilapplikationen</b></p>
+<p>Vi kan opdatere mobilapplikationen fra tid til anden, men indholdet er ikke nødvendigvis fuldstændigt eller up-to-date.
+Ethvert materiale på mobilapplikationen kan være forældet på et givent tidspunkt, og vi er ikke forpligtet til at opdatere sådant materiale.
+Vi kan ændre den mobile applikation til enhver tid med eller uden varsel.
+Vi kan suspendere adgangen til mobilapplikationen eller lukke den på ubestemt tid.</p>
+
+<p><b>Begrænsning af ansvar</b></p>
+<p>Under ingen omstændigheder vil selskabet, dets datterselskaber eller deres licensgivere, tjenesteudbydere, medarbejdere, agenter, embedsmænd eller direktører være ansvarlige for eventuelle skader,
+under nogen juridisk teori, der opstår som følge af eller i forbindelse med din brug eller manglende evne til at bruge den mobile applikation, alle websteder der er knyttet til det,
+ethvert indhold på mobilapplikationen eller sådanne andre hjemmesider eller tjenester eller genstande, der er opnået via mobilapplikationen eller sådanne andre websteder, herunder direkte, indirekte, specielle, hændelige, følgeskader eller straffe skader,
+herunder men ikke begrænset til personskade, smerte og lidelse, følelsesmæssig nød, indtægtstab, fortabt fortjeneste, tab af forretninger eller forventede besparelser,
+tab af brug, tab af goodwill, tab af data og uanset om der er tale om skade (herunder forsømmelighed), kontraktbrud eller andet, selvom det kan forudses.</p>
+
+<p>
+Det foregående påvirker ikke noget ansvar, som ikke kan udelukkes eller begrænses i henhold til gældende lovgivning.</p>
+
+<h3>Fortrolighedspolitik</h3>
+
+<p><b>Adgang til og rettelse af dine personlige oplysninger</b></p>
+<p>Vi gemmer ikke nogen data, herunder dine personlige oplysninger.
+Dette angiver, at et foto og enhver tjekliste ikke gemmes, hvis du sletter mobilapplikationen.
+Vi er ikke forpligtet til tab af data som følge af opdatering og sletning af mobilapplikationen.</p>
+
+<p><b>Kontakt information</b></p>
+<p>Alle andre tilbagemeldinger, kommentarer, anmodninger om teknisk support og anden kommunikation vedrørende mobilapplikationen skal rettes til:
+webmaster@boligchecker.dk.</p>
+
+<p><b>Rights clearance</b></p>
+<p>Ikon ressourcer<br>
+Tak til teamet for Google-materialeikon.
+Ikon lavet af Vectors Market, Freepik, og Prettycons fra www.flaticon.com </p>
+
+
+    ]]>
+
+    </string>
+
+
     //drawer_viewer
     <string name="my_side">Min side</string>
     <string name="home">Hjem</string>
@@ -443,7 +514,7 @@ Hvis du er gift eller har en partner, må din fælles indkomst ikke overstige 39
     //room_picture_main
     <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
     <string name="room_manage">Ansvarlige</string>
-    <string name="check_list">Check List</string>
+    <string name="check_list">Sjekkliste</string>
 
 
     //Wall
@@ -475,5 +546,10 @@ Hvis du er gift eller har en partner, må din fælles indkomst ikke overstige 39
     <string name="title_wall_four">Væg 4</string>
     <string name="title_wall_three">Væg 3</string>
     <string name="title_wall_two">Væg 2</string>
+    <string name="terms">Vilkår for brug</string>
+    <string name="ch_title">Sjekkliste</string>
+    <string name="ch_add">Tilføj til</string>
+    <string name="ch_popupdescription">Indtast din egen tjekliste!</string>
+    <string name="ch_popuptitle">Tilføj tjekliste element</string>
 
 </resources>

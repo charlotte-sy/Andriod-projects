@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.os.Handler;
 import android.widget.ProgressBar;
 
-import timber.log.Timber;
+//import timber.log.Timber;
 
 /**
  * Created by Seoyeon on 14/12/2017.
@@ -58,7 +58,7 @@ public class SplashActivity extends AppCompatActivity {
                 mProgress.setProgress(progress);
             } catch (Exception e) {
                 e.printStackTrace();
-                Timber.e(e.getMessage());
+                //Timber.e(e.getMessage());
             }
         }
     }
