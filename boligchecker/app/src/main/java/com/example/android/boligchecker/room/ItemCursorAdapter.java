@@ -46,11 +46,19 @@ public class ItemCursorAdapter extends SimpleCursorAdapter {
     List<Integer> selectedItemsPositions;
 
 
-    private CheckListDataManager dbManager;
+    private CheckListDataManager dbManagerList;
 
     public ItemCursorAdapter(Context context, int layout, Cursor c, String[] from, int[] to, int flags) {
         super(context, layout, c, from, to, flags);
+        this.cr = c;
+        this.mContext = context;
+
+        for (int i = 0; i < this.getCount(); i++) {
+            itemChecked.add(i, false); // initializes all items value with false
+        }
+
     }
+
 
     @Override
     public View newView(Context _context, Cursor _cursor, ViewGroup parent) {
@@ -73,11 +81,11 @@ public class ItemCursorAdapter extends SimpleCursorAdapter {
         checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                dbManager = new CheckListDataManager(Context);
-                dbManager.open();
-                dbManager.update(position, 1);
+                dbManagerList = new CheckListDataManager(Context);
+                dbManagerList.open();
+                dbManagerList.update(position, 1);
 
-                Toast.makeText(Context, "@string/action_save" + position, Toast.LENGTH_SHORT).show();
+                Toast.makeText(Context, R.string.action_save + position, Toast.LENGTH_SHORT).show();
 
             }
 
@@ -98,6 +106,10 @@ public class ItemCursorAdapter extends SimpleCursorAdapter {
 
 //  private void init() {
 // checked = new boolean[getCount()]};
+
+
+
+
 }
 
 

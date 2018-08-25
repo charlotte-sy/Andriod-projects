@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
+
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ListFragment;
 import android.support.v4.app.LoaderManager;
@@ -40,12 +40,10 @@ import com.example.android.boligchecker.BoligActivity;
 import com.example.android.boligchecker.BoligCursorAdapter;
 import com.example.android.boligchecker.R;
 import com.example.android.boligchecker.base.BaseFragment;
-import com.mikepenz.fastadapter.FastAdapter;
-import com.mikepenz.fastadapter.helpers.ClickListenerHelper;
 
 import static android.R.attr.id;
 import static android.R.attr.value;
-import static com.mikepenz.iconics.Iconics.TAG;
+
 
 /**
  * Created by Seoyeon on 22/12/2017.
