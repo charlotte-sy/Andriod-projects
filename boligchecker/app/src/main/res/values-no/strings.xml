@@ -550,6 +550,7 @@ Ikon laget av Vectors Market, Freepik, og Prettycons fra www.flaticon.com </p>
     <string name="ch_add">Legg til</string>
     <string name="ch_popupdescription">Skriv inn din egen sjekkliste!</string>
     <string name="ch_popuptitle">Legg til sjekkliste element</string>
+    <string name="ch_checked">Krysset av</string>
 
 
 </resources>

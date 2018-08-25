@@ -551,5 +551,6 @@ Ikon lavet af Vectors Market, Freepik, og Prettycons fra www.flaticon.com </p>
     <string name="ch_add">Tilføj til</string>
     <string name="ch_popupdescription">Indtast din egen tjekliste!</string>
     <string name="ch_popuptitle">Tilføj tjekliste element</string>
+    <string name="ch_checked">Afkrydset</string>
 
 </resources>

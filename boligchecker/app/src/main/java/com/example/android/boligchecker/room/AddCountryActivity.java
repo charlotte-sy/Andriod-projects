@@ -44,7 +44,7 @@ public class AddCountryActivity extends Activity implements OnClickListener {
             case R.id.add_record:
 
                 final String context = descEditText.getText().toString();
-                String booleanValue = "false".toString();
+                String booleanValue = "true".toString();
 
                 dbManager.insert(context, booleanValue);
 

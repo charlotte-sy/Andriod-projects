@@ -83,30 +83,21 @@ public class CheckList extends AppCompatActivity {
         listView.setAdapter(adapter);
 
         // OnCLickListiner For List Items
-         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-           public void onItemClick(AdapterView<?> parent, View view, int position, long viewId) {
-              TextView descTextView = (TextView) view.findViewById(R.id.check_list_text);
-         //     CheckBox checkBox = (CheckBox) view.findViewById(R.id.check_list_checkbox);
+        //   listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        //       @Override
+        //     public void onItemClick(AdapterView<?> parent, View view, int position, long viewId) {
+        //        TextView descTextView = (TextView) view.findViewById(R.id.check_list_text);
+                //     CheckBox checkBox = (CheckBox) view.findViewById(R.id.check_list_checkbox);
 
-             String desc = descTextView.getText().toString();
-              Intent modify_intent = new Intent(getApplicationContext(), ModifyCountryActivity.class);
-             modify_intent.putExtra("columncl", desc);
-               startActivity(modify_intent);
-          }
-           });
+        //       String desc = descTextView.getText().toString();
+        //       Intent modify_intent = new Intent(getApplicationContext(), ModifyCountryActivity.class);
+        //        modify_intent.putExtra("columncl", desc);
+        //        startActivity(modify_intent);
+        //     }
+        //  });
 
 
     }
-
-
-
-
-
-
-
-
-
 
 
 

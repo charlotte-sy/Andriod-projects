@@ -35,6 +35,7 @@ public class ItemCursorAdapter extends SimpleCursorAdapter {
 
 
     private Cursor cr;
+    private Cursor nyCursor;
     private Context mContext;
     //  private Context appContext;
     //  private int layout;
@@ -46,7 +47,7 @@ public class ItemCursorAdapter extends SimpleCursorAdapter {
     List<Integer> selectedItemsPositions;
 
 
-    private CheckListDataManager dbManagerList;
+    private CheckListDataManager dbManager;
 
     public ItemCursorAdapter(Context context, int layout, Cursor c, String[] from, int[] to, int flags) {
         super(context, layout, c, from, to, flags);
@@ -81,16 +82,19 @@ public class ItemCursorAdapter extends SimpleCursorAdapter {
         checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                dbManagerList = new CheckListDataManager(Context);
-                dbManagerList.open();
-                dbManagerList.update(position, 1);
 
-                Toast.makeText(Context, R.string.action_save + position, Toast.LENGTH_SHORT).show();
+                dbManager = new CheckListDataManager(Context);
+                dbManager.open();
+                dbManager.update(position+1,"cat");
+
+                nyCursor = dbManager.fetch();
+                changeCursor(nyCursor);
+
+                Toast.makeText(Context, R.string.ch_checked, Toast.LENGTH_SHORT).show();
 
             }
 
         });
-
 
     }
 
@@ -102,6 +106,9 @@ public class ItemCursorAdapter extends SimpleCursorAdapter {
         // cb.setOnCheckedChangeListener(this);
         //int position = (Integer)v.getTag();
         // checked[position] = cb.isChecked(); } /* CheckBox changed Listener */
+
+
+
     }
 
 //  private void init() {

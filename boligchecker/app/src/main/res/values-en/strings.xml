@@ -539,6 +539,7 @@ Icon made by Vectors Market, Freepik, and Prettycons from www.flaticon.com </p>
     <string name="ch_popupdescription">Type your own check list item!</string>
     <string name="ch_popuptitle">Add Check List Item</string>
     <string name="ch_title">Check List</string>
+    <string name="ch_checked">Checked</string>
 
 
 </resources>
